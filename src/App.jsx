@@ -1,31 +1,27 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { lazy } from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
+const SharedLayout = lazy(() => import("./pages/SharedLayout/SharedLayout"));
+const Homepage = lazy(() => import("./pages/Homepage/Homepage"));
+const Photo = lazy(() => import("./pages/Photo/Photo"));
+const Video = lazy(() => import("./pages/Video/Video"));
+const Aero = lazy(() => import("./pages/Aero/Aero"));
+const Contact = lazy(() => import("./pages/Contact/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Homepage />} />
+        <Route path="photo" element={<Photo />} />
+        <Route path="video" element={<Video />} />
+        <Route path="aero" element={<Aero />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   );
-}
+};
 
 export default App;
