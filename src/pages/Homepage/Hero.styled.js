@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import img from "../../pictures/jpg/hero.jpg";
 
-export const HomepageStyled = styled.div`
+export const Hero = styled.div`
   background-image: url(${img});
   width: 320px;
   height: 320px;

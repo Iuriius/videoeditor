@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
-export const ButtonStyled = styled.div`
+export const ButtonStyled = styled.button`
+  font-weight: 900;
   color: white;
   padding: 1rem;
   background-color: darkslateblue;
