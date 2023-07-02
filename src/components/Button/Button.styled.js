@@ -5,10 +5,13 @@ export const ButtonStyled = styled.div`
   padding: 1rem;
   background-color: darkslateblue;
   border-radius: 0.5rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
-  :hover {
+  transition: all 150ms ease-in-out;
+  &:hover,
+  &:focus {
     color: darkslateblue;
     background-color: orange;
-    transition: color background-color 150ms ease;
+    cursor: pointer;
   }
 `;

@@ -11,15 +11,17 @@ export const HomepageStyled = styled.div`
 
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: column-reverse;
+  padding-bottom: 7rem;
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    height: 500px;
+    height: 300px;
   }
   @media screen and (min-width: 1300px) {
     width: 1300px;
-    height: 700px;
+    height: 600px;
   }
 `;
