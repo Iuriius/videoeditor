@@ -1,9 +1,10 @@
 import styled from "@emotion/styled";
 
-export const Benefit = styled.div`
+export const BenefitHowto = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  width: 300px;
+  padding-top: 1rem;
 `;
