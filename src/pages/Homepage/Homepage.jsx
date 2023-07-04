@@ -57,6 +57,17 @@ const Homepage = () => {
         <br /> <ButtonStyled>ЗАМОВИТИ МОНТАЖ ВІДЕО </ButtonStyled>
       </Hero>
 
+      <h2 style={{ color: "white", width: "70%", margin: "0 auto", padding: "3rem 0 3rem 0" }}>
+        Бажаєте створити гарне відео, але немає часу на вивчення професійного програмного
+        забезпечення? Безкоштовні онлайн інструменти пропонують простоту в креативності, але
+        результати виглядають шаблонно?
+        <br />
+        <br />
+        Довіртеся професіоналу, який створить ролик з Ваших матеріалів враховуючи саме Ваші потреби.
+        Обговоріть зі мною деталі технічного завдання, надайте вихідні матеріали і отримайте
+        гарантований фінальний результат!
+      </h2>
+
       <Whyme>
         <Benefit>
           <BsFill7SquareFill size="4rem" />
@@ -109,19 +120,19 @@ const Homepage = () => {
       <Whyme>
         <Benefit>
           <Link to="/photo">
-            <img src={photo} alt="photo" width="320px" />
+            <img className="glow" src={photo} alt="photo" width="320px" />
             <h2>ФОТОСЕСІЇ</h2>
           </Link>
         </Benefit>
         <Benefit>
           <Link to="/video">
-            <img src={clip} alt="clip" width="320px" />
+            <img className="glow" src={clip} alt="clip" width="320px" />
             <h2>ЗЙОМКА КЛІПІВ</h2>
           </Link>
         </Benefit>
         <Benefit>
           <Link to="/aero">
-            <img src={aero} alt="aero" width="320px" />
+            <img className="glow" src={aero} alt="aero" width="320px" />
             <h2>АЕРОЗЙОМКА</h2>
           </Link>
         </Benefit>

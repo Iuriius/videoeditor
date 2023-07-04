@@ -40,7 +40,7 @@ export const Header = () => {
     <>
       <HeaderStyled>
         <Link to="/">
-          <img src={Logo} alt="logo" width="28" />
+          <img className="glow" src={Logo} alt="logo" width="28" />
         </Link>
         <nav className="navigation">
           <StyledLink to="/" end>
