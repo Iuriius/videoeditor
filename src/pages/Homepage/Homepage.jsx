@@ -57,7 +57,7 @@ const Homepage = () => {
         <br /> <ButtonStyled>ЗАМОВИТИ МОНТАЖ ВІДЕО </ButtonStyled>
       </Hero>
 
-      <h2 style={{ color: "white", width: "70%", margin: "0 auto", padding: "3rem 0 3rem 0" }}>
+      <h2 style={{ color: "white", width: "90%", margin: "0 auto", padding: "3rem 0 3rem 0" }}>
         Бажаєте створити гарне відео, але немає часу на вивчення професійного програмного
         забезпечення? Безкоштовні онлайн інструменти пропонують простоту в креативності, але
         результати виглядають шаблонно?
