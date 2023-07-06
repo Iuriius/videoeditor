@@ -3,9 +3,12 @@ import { PhotoStyled } from "./Photo.styled";
 
 const Photo = () => {
   return (
-    <PhotoStyled>
-      <h1>PHOTO</h1>
-    </PhotoStyled>
+    <>
+      <PhotoStyled>
+        <h1>PHOTO</h1>
+        <p>fjfj</p>
+      </PhotoStyled>
+    </>
   );
 };
 export default Photo;
