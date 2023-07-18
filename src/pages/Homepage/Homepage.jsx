@@ -8,6 +8,7 @@ import { BenefitHowto } from "../../components/Benefits/BenefitHowto.styled";
 import { SectionTitle } from "../../components/SectionTitle/SectionTitle.styled";
 import { Partners } from "./Partners.styled";
 import { Link } from "react-router-dom";
+import { Showreel } from "../../components/YouTube/Showreel";
 /*
 /**|======================================
 /**| react icons
@@ -48,6 +49,7 @@ import aero from "../../pictures/jpg/aerovideo.jpg";
 /**| Code
 /**|======================================
 */
+const videoId = "Xw3j7-1b8ig";
 
 const Homepage = () => {
   return (
@@ -96,6 +98,8 @@ const Homepage = () => {
           <h2>відмінний результат</h2>
         </Benefit>
       </Whyme>
+
+      <Showreel videoId={videoId} />
 
       <SectionTitle>МЕНІ ДОВІРЯЮТЬ:</SectionTitle>
       <Partners />
