@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Hero } from "./Hero.styled";
 import { ButtonStyled } from "../../components/Button/Button.styled";
 import { Whyme } from "../../components/Whyme/Whyme.styled";
@@ -41,9 +42,9 @@ import { BsEnvelopeAt } from "react-icons/bs";
 /**| import img
 /**|======================================
 */
-import photo from "../../pictures/jpg/photosession.jpg";
-import clip from "../../pictures/jpg/videoclip.jpg";
-import aero from "../../pictures/jpg/aerovideo.jpg";
+import photo from "/pictures/jpg/photosession.jpg";
+import clip from "/pictures/jpg/videoclip.jpg";
+import aero from "/pictures/jpg/aerovideo.jpg";
 /*
 /**|======================================
 /**| Code
@@ -52,6 +53,12 @@ import aero from "../../pictures/jpg/aerovideo.jpg";
 const videoId = "Xw3j7-1b8ig";
 
 const Homepage = () => {
+  const [showFullText, setShowFullText] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowFullText(!showFullText);
+  };
+
   return (
     <>
       <Hero>
@@ -65,9 +72,14 @@ const Homepage = () => {
         результати виглядають шаблонно?
         <br />
         <br />
-        Довіртеся професіоналу, який створить ролик з Ваших матеріалів враховуючи саме Ваші потреби.
-        Обговоріть зі мною деталі технічного завдання, надайте вихідні матеріали і отримайте
-        гарантований фінальний результат!
+        {showFullText && (
+          <span>
+            Довіртеся професіоналу, який створить ролик з Ваших матеріалів враховуючи саме Ваші
+            потреби. Обговоріть зі мною деталі технічного завдання, надайте вихідні матеріали і
+            отримайте гарантований фінальний результат!
+          </span>
+        )}
+        {!showFullText && <ButtonStyled onClick={handleButtonClick}>Рішення</ButtonStyled>}
       </h2>
 
       <Whyme>
@@ -99,6 +111,7 @@ const Homepage = () => {
         </Benefit>
       </Whyme>
 
+      <SectionTitle>ШОУРІЛ:</SectionTitle>
       <Showreel videoId={videoId} />
 
       <SectionTitle>МЕНІ ДОВІРЯЮТЬ:</SectionTitle>

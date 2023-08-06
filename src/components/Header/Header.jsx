@@ -1,7 +1,7 @@
 import { HeaderStyled } from "./Header.styled";
 import { StyledLink } from "./Header.styled";
 import { Link } from "react-router-dom";
-import Logo from "../../pictures/png/logo.png";
+import Logo from "/pictures/png/logo.png";
 
 import PropTypes from "prop-types";
 import Hamburger from "hamburger-react";

@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import img from "../../pictures/jpg/partners.jpg";
+import img from "/pictures/jpg/partners.jpg";
 
 export const Partners = styled.div`
   margin: 0 auto;

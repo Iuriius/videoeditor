@@ -48,7 +48,6 @@ export const Showreel = ({ videoId }) => {
 
   return (
     <div css={showreelContainerStyles}>
-      <h2>{videoTitle}</h2>
       <div css={youtubeVideoContainerStyles}>
         <YouTube videoId={videoId} opts={{ width: "100%" }} />
       </div>
