@@ -1,7 +1,20 @@
 import React from "react";
-import { PhotoStyled, Mebw } from "./Photo.styled";
+import { PhotoStyled, Mebw, Flexwrapper, H1, H2, Section } from "./Photo.styled";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+/*
+/**|======================================
+/**| components
+/**|======================================
+*/
+import { Blackandwhite } from "./Blackandwhite";
+import { Children } from "./Children";
+import { Nature } from "./Nature";
+import { Portraits } from "./Portraits";
+import { Reportage } from "./Reportage";
+import { Special } from "./Special";
+import { Street } from "./Street";
+import { Subject } from "./Subject";
 /*
 /**|======================================
 /**| images gallery
@@ -81,7 +94,52 @@ const Photo = () => {
     <>
       <PhotoStyled>
         <MyGallery />
-        <Mebw src={mebw} alt="author" />
+        <Flexwrapper>
+          <Mebw src={mebw} alt="author" />
+          <div>
+            <H1>ФІЛОСОФІЯ</H1>
+            <H2>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id molestias, impedit iste
+              ullam quis sunt amet, accusantium temporibus veniam architecto fuga at eaque quaerat
+              nostrum soluta voluptates dolor totam ipsam.lorem Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Aut voluptatem, quos dolor magni dignissimos minus nisi
+              magnam illum tempora eligendi laboriosam quae voluptatibus velit autem culpa pariatur
+              amet vel suscipit?
+            </H2>
+          </div>
+        </Flexwrapper>
+        <Section>
+          РЕПОРТАЖНА ЗЙОМКА
+          <Reportage />
+        </Section>
+        <Section>
+          ПОРТРЕТНА ФОТОГРАФІЯ
+          <Portraits />
+        </Section>
+        <Section>
+          ДИТЯЧА ФОТОГРАФІЯ
+          <Children />
+        </Section>
+        <Section>
+          СТРІТ ФОТОГРАФІЯ
+          <Street />
+        </Section>
+        <Section>
+          ПРЕДМЕТНА ФОТОГРАФІЯ
+          <Subject />
+        </Section>
+        <Section>
+          ПРИРОДА
+          <Nature />
+        </Section>{" "}
+        <Section>
+          SPECIAL
+          <Special />
+        </Section>
+        <Section>
+          BLACK AND WHITE
+          <Blackandwhite />
+        </Section>
       </PhotoStyled>
     </>
   );

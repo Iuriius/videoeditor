@@ -39,8 +39,9 @@ export const Header = () => {
   return (
     <>
       <HeaderStyled>
-        <Link to="/">
+        <Link to="/" style={{ display: "flex", alignItems: "center" }}>
           <img className="glow" src={Logo} alt="logo" width="28" />
+          <span style={{ color: "lavender", marginLeft: "1rem" }}>VIDEOMONTAZH.ONLINE</span>
         </Link>
         <nav className="navigation">
           <StyledLink to="/" end>
