@@ -1,4 +1,4 @@
-import { HeaderStyled } from "./Header.styled";
+import { HeaderStyled, LogoTitle } from "./Header.styled";
 import { StyledLink } from "./Header.styled";
 import { Link } from "react-router-dom";
 import Logo from "/pictures/png/logo.png";
@@ -41,7 +41,7 @@ export const Header = () => {
       <HeaderStyled>
         <Link to="/" style={{ display: "flex", alignItems: "center" }}>
           <img className="glow" src={Logo} alt="logo" width="28" />
-          <span style={{ color: "lavender", marginLeft: "1rem" }}>VIDEOMONTAZH.ONLINE</span>
+          <LogoTitle>VIDEOMONTAZH.ONLINE</LogoTitle>
         </Link>
         <nav className="navigation">
           <StyledLink to="/" end>

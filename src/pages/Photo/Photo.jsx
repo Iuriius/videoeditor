@@ -1,5 +1,14 @@
 import React from "react";
-import { PhotoStyled, Mebw, Flexwrapper, H1, H2, Section } from "./Photo.styled";
+import {
+  PhotoStyled,
+  Mebw,
+  Flexwrapper,
+  H1,
+  H2,
+  H3,
+  Section,
+  Philosopy,
+} from "./Photo.styled";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 /*
@@ -85,7 +94,7 @@ import mebw from "/pictures/jpg/mebw.jpg";
 
 class MyGallery extends React.Component {
   render() {
-    return <ImageGallery items={images} />;
+    return <ImageGallery autoPlay items={images} />;
   }
 }
 
@@ -95,49 +104,84 @@ const Photo = () => {
       <PhotoStyled>
         <MyGallery />
         <Flexwrapper>
-          <Mebw src={mebw} alt="author" />
-          <div>
+          <Philosopy>
             <H1>ФІЛОСОФІЯ</H1>
-            <H2>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id molestias, impedit iste
-              ullam quis sunt amet, accusantium temporibus veniam architecto fuga at eaque quaerat
-              nostrum soluta voluptates dolor totam ipsam.lorem Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Aut voluptatem, quos dolor magni dignissimos minus nisi
-              magnam illum tempora eligendi laboriosam quae voluptatibus velit autem culpa pariatur
-              amet vel suscipit?
-            </H2>
-          </div>
+            <H3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+              molestias, impedit iste ullam quis sunt amet, accusantium
+              temporibus veniam architecto fuga at eaque quaerat nostrum soluta
+              voluptates dolor totam ipsam.lorem Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Aut voluptatem, quos dolor magni
+              dignissimos minus nisi magnam illum tempora eligendi laboriosam
+              quae voluptatibus velit autem culpa pariatur amet vel suscipit?
+            </H3>
+          </Philosopy>
+          <Mebw src={mebw} alt="author" />
         </Flexwrapper>
         <Section>
-          РЕПОРТАЖНА ЗЙОМКА
+          <H2>РЕПОРТАЖНА ЗЙОМКА</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Reportage />
         </Section>
         <Section>
-          ПОРТРЕТНА ФОТОГРАФІЯ
+          <H2>ПОРТРЕТНА ФОТОГРАФІЯ</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Portraits />
         </Section>
         <Section>
-          ДИТЯЧА ФОТОГРАФІЯ
+          <H2>ДИТЯЧА ФОТОГРАФІЯ</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Children />
         </Section>
         <Section>
-          СТРІТ ФОТОГРАФІЯ
+          <H2>СТРІТ ФОТОГРАФІЯ</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Street />
         </Section>
         <Section>
-          ПРЕДМЕТНА ФОТОГРАФІЯ
+          <H2>ПРЕДМЕТНА ФОТОГРАФІЯ</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Subject />
         </Section>
         <Section>
-          ПРИРОДА
+          <H2>ПРИРОДА</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Nature />
-        </Section>{" "}
+        </Section>
+
         <Section>
-          SPECIAL
+          <H2>SPECIAL</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Special />
         </Section>
+
         <Section>
-          BLACK AND WHITE
+          <H2>BLACK AND WHITE</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
           <Blackandwhite />
         </Section>
       </PhotoStyled>
