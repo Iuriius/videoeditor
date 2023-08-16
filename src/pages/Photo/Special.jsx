@@ -7,16 +7,34 @@ import ImageGallery from "react-image-gallery";
 */
 const images = [
   {
-    original: "/pictures/jpg/silhouette2.jpg",
-    thumbnail: "/pictures/jpg/silhouette2.jpg",
+    original: "/pictures/jpg/peugeot0.jpg",
   },
   {
-    original: "/pictures/jpg/snail.jpg",
-    thumbnail: "/pictures/jpg/snail.jpg",
+    original: "/pictures/jpg/peugeot1.jpg",
   },
   {
-    original: "/pictures/jpg/castle.jpg",
-    thumbnail: "/pictures/jpg/castle.jpg",
+    original: "/pictures/jpg/peugeot2.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot3.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot4.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot5.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot6.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot7.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot8.jpg",
+  },
+  {
+    original: "/pictures/jpg/peugeot9.jpg",
   },
 ];
 
@@ -35,11 +53,7 @@ class MyGallery extends React.Component {
     );
   }
 }
-/**
-|--------------------------------------------------
-| code
-|--------------------------------------------------
-*/
+
 export const Special = () => {
   return <MyGallery />;
 };

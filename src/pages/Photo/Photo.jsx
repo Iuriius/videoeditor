@@ -39,13 +39,18 @@ const images = [
     thumbnail: "/pictures/jpg/snail.jpg",
   },
   {
-    original: "/pictures/jpg/castle.jpg",
-    thumbnail: "/pictures/jpg/castle.jpg",
-  },
-  {
     original: "/pictures/jpg/fog.jpg",
     thumbnail: "/pictures/jpg/fog.jpg",
   },
+  {
+    original: "/pictures/jpg/cathaypacific.jpg",
+    thumbnail: "/pictures/jpg/cathaypacific.jpg",
+  },
+  {
+    original: "/pictures/jpg/castle.jpg",
+    thumbnail: "/pictures/jpg/castle.jpg",
+  },
+
   {
     original: "/pictures/jpg/silhouette.jpg",
     thumbnail: "/pictures/jpg/silhouette.jpg",
@@ -126,6 +131,16 @@ const Photo = () => {
           </H3>
           <Reportage />
         </Section>
+
+        <Section>
+          <H2>SPECIAL</H2>
+          <H3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+          </H3>
+          <Special />
+        </Section>
+
         <Section>
           <H2>ПОРТРЕТНА ФОТОГРАФІЯ</H2>
           <H3>
@@ -165,15 +180,6 @@ const Photo = () => {
             molestias, impedit iste ullam quis sunt amet, accusantium temporibus
           </H3>
           <Nature />
-        </Section>
-
-        <Section>
-          <H2>SPECIAL</H2>
-          <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
-          </H3>
-          <Special />
         </Section>
 
         <Section>
