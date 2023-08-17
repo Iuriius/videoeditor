@@ -13,6 +13,38 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 /*
 /**|======================================
+/**| icons
+/**|======================================
+*/
+import {
+  BsFillCameraFill,
+  BsCamera2,
+  BsFillPersonFill,
+  BsCarFront,
+  BsFillBuildingsFill,
+  BsPeopleFill,
+  BsCircleHalf,
+} from "react-icons/bs";
+import {
+  GiTrophyCup,
+  GiTowerBridge,
+  GiGemNecklace,
+  GiBilledCap,
+  GiPerfumeBottle,
+  GiWineBottle,
+} from "react-icons/gi";
+import {
+  MdOutlineBedroomBaby,
+  MdEmojiNature,
+  MdNaturePeople,
+  MdCamera,
+} from "react-icons/md";
+import { TbMoodKid } from "react-icons/tb";
+import { SiAdobephotoshop } from "react-icons/si";
+import { AiOutlinePicture } from "react-icons/ai";
+import { FaMedal, FaHotel, FaBaby, FaCameraRetro } from "react-icons/fa";
+/*
+/**|======================================
 /**| components
 /**|======================================
 */
@@ -112,45 +144,94 @@ const Photo = () => {
           <Philosopy>
             <H1>ФІЛОСОФІЯ</H1>
             <H3>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-              molestias, impedit iste ullam quis sunt amet, accusantium
-              temporibus veniam architecto fuga at eaque quaerat nostrum soluta
-              voluptates dolor totam ipsam.lorem Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Aut voluptatem, quos dolor magni
-              dignissimos minus nisi magnam illum tempora eligendi laboriosam
-              quae voluptatibus velit autem culpa pariatur amet vel suscipit?
+              Зображення завжди для мене були чимось особливим. До того як
+              зацікавитися фотографією я довго роздивлявся картинки намагаючись
+              зрозуміти в чому магія надзеленої трави, блакитної води чи
+              розмитого фону? Чому знімок має не такий вигляд як ми бачимо
+              своїми очами у реальному житті? Намагаючись досягти такого вигляду
+              у своїх початкових роботах я зрозумів, що світ фотографії для всіх
+              митців різний. Мої світовідчуття моменту, які передані за
+              допомогою камери також є особливими. Саме через це я і фотографую
+              в різних стилях, хоча передусім люблю репортажну, портретну та
+              дитячу фотографію.
             </H3>
           </Philosopy>
           <Mebw src={mebw} alt="author" />
         </Flexwrapper>
         <Section>
-          <H2>РЕПОРТАЖНА ЗЙОМКА</H2>
+          <H2>
+            <FaMedal />
+            &nbsp;
+            <BsFillCameraFill />
+            &nbsp;
+            <GiTrophyCup />
+            <br />
+            РЕПОРТАЖНА ЗЙОМКА
+          </H2>
           <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+            Встигнути усюди і бути практично в двох місцях одночасно - ось що
+            таке для мене справжній репортаж. Коли фотограф знає де йому бути і
+            в який час щоб не пропустити важливий момент який стане ключовим.
+            Посмішка від щойно врученої медалі, отриманої грамоти або перепетії
+            змагань чи вдалого фінішу має бути назавжди зупинена в часі аби
+            дивлячись на знімок в думках повертатися до цього щасливого моменту
+            знов і знов.
           </H3>
           <Reportage />
         </Section>
 
         <Section>
-          <H2>SPECIAL</H2>
+          <H2>
+            <BsCarFront />
+            &nbsp;
+            <FaHotel />
+            &nbsp;
+            <GiWineBottle />
+            <br />
+            SPECIAL
+          </H2>
           <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+            Спеціальні комерційні сесії для друку постерів, флаєрів та інших
+            презентаційних матеріалів узгоджених із замовником які відповідають
+            брендбуку вимагають поглибленого розуміння теми, мети та фінального
+            результату. Увага до деталей в таких проєктах для мене найвищий
+            пріоритет.
           </H3>
           <Special />
         </Section>
 
         <Section>
-          <H2>ПОРТРЕТНА ФОТОГРАФІЯ</H2>
+          <H2>
+            <BsFillPersonFill />
+            &nbsp;
+            <SiAdobephotoshop />
+            &nbsp;
+            <BsCamera2 />
+            <br />
+            ПОРТРЕТНА ФОТОГРАФІЯ
+          </H2>
           <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+            Портрет це не лише одяг, світло чи макіяж. Це передусім глибинні
+            знання програмного забезпечення для обробки та ретушування аби
+            обличчя мало природній вигляд і не перетворювалюся на пластикову
+            маску. Сучасні системи згладжування шкіри хороші лише для швидких
+            фото у соцмережах. Якщо Ваш портрет має бути особливим без
+            спеціальної обробки просто не обійтися. Один раз побачивши різницю
+            між професійно обробленим фото та штучним інтелектом Ви ніколи не
+            повернетися до слайдеру згладжування шкіри у вашому телефоні.
           </H3>
           <Portraits />
         </Section>
         <Section>
-          <H2>ДИТЯЧА ФОТОГРАФІЯ</H2>
+          <H2>
+            <TbMoodKid />
+            &nbsp;
+            <FaBaby />
+            &nbsp;
+            <MdOutlineBedroomBaby />
+            <br />
+            ДИТЯЧА ФОТОГРАФІЯ
+          </H2>
           <H3>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
             molestias, impedit iste ullam quis sunt amet, accusantium temporibus
@@ -158,7 +239,15 @@ const Photo = () => {
           <Children />
         </Section>
         <Section>
-          <H2>СТРІТ ФОТОГРАФІЯ</H2>
+          <H2>
+            <BsFillBuildingsFill />
+            &nbsp;
+            <GiTowerBridge />
+            &nbsp;
+            <BsPeopleFill />
+            <br />
+            СТРІТ ФОТОГРАФІЯ
+          </H2>
           <H3>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
             molestias, impedit iste ullam quis sunt amet, accusantium temporibus
@@ -166,7 +255,15 @@ const Photo = () => {
           <Street />
         </Section>
         <Section>
-          <H2>ПРЕДМЕТНА ФОТОГРАФІЯ</H2>
+          <H2>
+            <GiGemNecklace />
+            &nbsp;
+            <GiPerfumeBottle />
+            &nbsp;
+            <GiBilledCap />
+            <br />
+            ПРЕДМЕТКА
+          </H2>
           <H3>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
             molestias, impedit iste ullam quis sunt amet, accusantium temporibus
@@ -174,7 +271,15 @@ const Photo = () => {
           <Subject />
         </Section>
         <Section>
-          <H2>ПРИРОДА</H2>
+          <H2>
+            <MdNaturePeople />
+            &nbsp;
+            <AiOutlinePicture />
+            &nbsp;
+            <MdEmojiNature />
+            <br />
+            ПРИРОДА
+          </H2>
           <H3>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
             molestias, impedit iste ullam quis sunt amet, accusantium temporibus
@@ -183,10 +288,18 @@ const Photo = () => {
         </Section>
 
         <Section>
-          <H2>BLACK AND WHITE</H2>
+          <H2>
+            <MdCamera />
+            &nbsp;
+            <FaCameraRetro />
+            &nbsp;
+            <BsCircleHalf />
+            <br />
+            BLACK AND WHITE
+          </H2>
           <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            molestias, impedit iste ullam quis sunt amet, accusantium temporibus
+            Коли важливі деталі та емоції, інколи колір навіть заважає та
+            відволікає. Готові експерементувати?
           </H3>
           <Blackandwhite />
         </Section>

@@ -38,6 +38,7 @@ export const H2 = styled.h2`
 `;
 
 export const H3 = styled.h3`
+  text-align: center;
   font-size: 1rem;
   line-height: 2rem;
 
@@ -46,7 +47,7 @@ export const H3 = styled.h3`
   }
   @media screen and (min-width: 1300px) {
     font-size: 2rem;
-    line-height: 4rem;
+    line-height: 3rem;
   }
 `;
 

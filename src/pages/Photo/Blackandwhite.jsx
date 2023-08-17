@@ -7,16 +7,19 @@ import ImageGallery from "react-image-gallery";
 */
 const images = [
   {
-    original: "/pictures/jpg/silhouette2.jpg",
-    thumbnail: "/pictures/jpg/silhouette2.jpg",
+    original: "/pictures/jpg/bw1.jpg",
   },
   {
-    original: "/pictures/jpg/snail.jpg",
-    thumbnail: "/pictures/jpg/snail.jpg",
+    original: "/pictures/jpg/bw2.jpg",
   },
   {
-    original: "/pictures/jpg/castle.jpg",
-    thumbnail: "/pictures/jpg/castle.jpg",
+    original: "/pictures/jpg/bw3.jpg",
+  },
+  {
+    original: "/pictures/jpg/bw4.jpg",
+  },
+  {
+    original: "/pictures/jpg/bw5.jpg",
   },
 ];
 
