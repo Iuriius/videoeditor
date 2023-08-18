@@ -7,16 +7,70 @@ import ImageGallery from "react-image-gallery";
 */
 const images = [
   {
-    original: "/pictures/jpg/silhouette2.jpg",
-    thumbnail: "/pictures/jpg/silhouette2.jpg",
+    original: "/pictures/jpg/subject1.jpg",
   },
   {
-    original: "/pictures/jpg/snail.jpg",
-    thumbnail: "/pictures/jpg/snail.jpg",
+    original: "/pictures/jpg/subject2.jpg",
   },
   {
-    original: "/pictures/jpg/castle.jpg",
-    thumbnail: "/pictures/jpg/castle.jpg",
+    original: "/pictures/jpg/subject3.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject4.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject5.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject6.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject7.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject8.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject9.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject10.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject11.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject12.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject13.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject14.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject15.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject16.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject17.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject18.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject19.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject20.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject21.jpg",
+  },
+  {
+    original: "/pictures/jpg/subject22.jpg",
   },
 ];
 
