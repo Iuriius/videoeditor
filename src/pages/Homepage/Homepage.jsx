@@ -31,12 +31,9 @@ import { BsFillSendCheckFill } from "react-icons/bs";
 /**| social contacts
 /**|======================================
 */
-import { BsTelegram } from "react-icons/bs";
 import { FaViber } from "react-icons/fa";
-import { BsSkype } from "react-icons/bs";
-import { BsMessenger } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { BsEnvelopeAt } from "react-icons/bs";
+import { BsTelegram, BsSkype, BsMessenger, BsInstagram, BsEnvelopeAt } from "react-icons/bs";
+
 /*
 /**|======================================
 /**| import img

@@ -7,16 +7,64 @@ import ImageGallery from "react-image-gallery";
 */
 const images = [
   {
-    original: "/pictures/jpg/silhouette2.jpg",
-    thumbnail: "/pictures/jpg/silhouette2.jpg",
+    original: "/pictures/jpg/nature1.jpg",
   },
   {
-    original: "/pictures/jpg/snail.jpg",
-    thumbnail: "/pictures/jpg/snail.jpg",
+    original: "/pictures/jpg/nature2.jpg",
   },
   {
-    original: "/pictures/jpg/castle.jpg",
-    thumbnail: "/pictures/jpg/castle.jpg",
+    original: "/pictures/jpg/nature3.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature4.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature5.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature6.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature7.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature8.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature9.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature10.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature11.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature12.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature13.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature14.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature15.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature16.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature17.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature18.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature19.jpg",
+  },
+  {
+    original: "/pictures/jpg/nature20.jpg",
   },
 ];
 

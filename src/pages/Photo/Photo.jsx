@@ -1,5 +1,9 @@
 import React from "react";
 import { PhotoStyled, Mebw, Flexwrapper, H1, H2, H3, Section, Philosopy } from "./Photo.styled";
+import { SectionTitle } from "../../components/SectionTitle/SectionTitle.styled";
+import { Socials } from "../../components/Whyme/Socials.styled";
+import { FaViber } from "react-icons/fa";
+import { BsTelegram, BsSkype, BsMessenger, BsInstagram, BsEnvelopeAt } from "react-icons/bs";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 /*
@@ -15,6 +19,7 @@ import {
   BsFillBuildingsFill,
   BsPeopleFill,
   BsCircleHalf,
+  BsPersonWorkspace,
 } from "react-icons/bs";
 import {
   GiTrophyCup,
@@ -23,8 +28,15 @@ import {
   GiBilledCap,
   GiPerfumeBottle,
   GiWineBottle,
+  GiEternalLove,
 } from "react-icons/gi";
-import { MdOutlineBedroomBaby, MdEmojiNature, MdNaturePeople, MdCamera } from "react-icons/md";
+import {
+  MdOutlineBedroomBaby,
+  MdEmojiNature,
+  MdNaturePeople,
+  MdCamera,
+  MdCameraRoll,
+} from "react-icons/md";
 import { TbMoodKid } from "react-icons/tb";
 import { SiAdobephotoshop } from "react-icons/si";
 import { AiOutlinePicture } from "react-icons/ai";
@@ -42,6 +54,7 @@ import { Reportage } from "./Reportage";
 import { Special } from "./Special";
 import { Street } from "./Street";
 import { Subject } from "./Subject";
+import { Forever } from "./Forever";
 /*
 /**|======================================
 /**| images gallery
@@ -230,8 +243,8 @@ const Photo = () => {
             СТРІТ ФОТОГРАФІЯ
           </H2>
           <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id molestias, impedit iste
-            ullam quis sunt amet, accusantium temporibus
+            Стріт фотографія для мене ніколи не втрачає актуальності. Це можливість передати людей у
+            часі.
           </H3>
           <Street />
         </Section>
@@ -245,7 +258,11 @@ const Photo = () => {
             <br />
             ПРЕДМЕТКА
           </H2>
-          <H3>Предметна фотографія</H3>
+          <H3>
+            Предметна фотографія вимагає особливого підходу, адже формування єдиного стилю є не менш
+            важливим, ніж самі об&apos;єкти зйомки. Ляльки, аксесуари чи їжа все це потребує
+            найвищої уваги до кольорів і деталей.
+          </H3>
           <Subject />
         </Section>
         <Section>
@@ -259,8 +276,8 @@ const Photo = () => {
             ПРИРОДА
           </H2>
           <H3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id molestias, impedit iste
-            ullam quis sunt amet, accusantium temporibus
+            Фотографування пейзажів та тварин для мене особливе хоббі. Я ніколи не вирушаю в подорож
+            без камери. Тому що краса завжди поруч з нами, варто лише побачити її.
           </H3>
           <Nature />
         </Section>
@@ -285,6 +302,44 @@ const Photo = () => {
           </H3>
           <Blackandwhite />
         </Section>
+
+        <Section>
+          <H2>
+            <GiEternalLove />
+            &nbsp;
+            <BsPersonWorkspace />
+            &nbsp;
+            <MdCameraRoll />
+            <br />
+            КРАСА ТА СПОГАДИ
+          </H2>
+          <H3>
+            Гарна фотографія це те до чого Ви завжи певернетеся. З плином часу з пам&apos;яті
+            зітруться дрібниці і деталі, а знімок залишиться з Вами назавжди.
+          </H3>
+          <Forever />
+        </Section>
+        <SectionTitle>НАПИШІТЬ МЕНІ ЩОБ ДІЗНАТИСЯ ДЕТАЛІ:</SectionTitle>
+        <Socials>
+          <a href="https://t.me/iuriius">
+            <BsTelegram size="4rem" />
+          </a>
+          <a href="viber://chat?number=380733216072">
+            <FaViber size="4rem" />
+          </a>
+          <a href="skype:allotrius?chat">
+            <BsSkype size="4rem" />
+          </a>
+          <a href="https://www.instagram.com/allotrius/">
+            <BsInstagram size="4rem" />
+          </a>
+          <a href="https://m.me/iurii.kyrychenko">
+            <BsMessenger size="4rem" />
+          </a>
+          <a href="mailto:iuriius@gmail.com">
+            <BsEnvelopeAt size="4rem" />
+          </a>
+        </Socials>
       </PhotoStyled>
     </>
   );
