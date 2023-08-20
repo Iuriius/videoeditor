@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Hero } from "./Hero.styled";
+import { Hero, Cam1, Hello } from "./Hero.styled";
 import { ButtonStyled } from "../../components/Button/Button.styled";
 import { Whyme } from "../../components/Whyme/Whyme.styled";
 import { Howto } from "../../components/Whyme/Howto.styled";
@@ -10,6 +10,7 @@ import { SectionTitle } from "../../components/SectionTitle/SectionTitle.styled"
 import { Partners } from "./Partners.styled";
 import { Link } from "react-router-dom";
 import { VideoContainer } from "../Aero/Aero.styled";
+import ReactPlayer from "react-player/youtube";
 /*
 /**|======================================
 /**| react icons
@@ -44,8 +45,6 @@ import aero from "/pictures/jpg/aerovideo.jpg";
 /**| Code
 /**|======================================
 */
-import ReactPlayer from "react-player/youtube";
-
 const Homepage = () => {
   const [showFullText, setShowFullText] = useState(false);
 
@@ -103,6 +102,32 @@ const Homepage = () => {
           <BsFillEmojiHeartEyesFill size="4rem" />
           <h2>відмінний результат</h2>
         </Benefit>
+      </Whyme>
+
+      <Whyme>
+        <SectionTitle style={{ color: "lavender", padding: "0 0.5rem" }}>
+          Вітаю! Мене звати Юрій!
+        </SectionTitle>
+        <Hello />
+        <SectionTitle style={{ color: "lavender", padding: "0 0.5rem" }}>
+          Я допомагаю з фото-📸 та відео-🎥 контентом для соцмереж та YouTube.
+          <br /> <br />
+          Якщо у Вас є свій канал, але часу на монтаж відеороликів не вистачає, або ще бракує
+          досвіду, я буду радий Вам допомогти 😎
+        </SectionTitle>
+        <Cam1 />
+        <SectionTitle style={{ color: "lavender", padding: "0 0.5rem" }}>
+          🎬 Монтаж відео я здійснюю лише в екосистемі Adobe як стандарт індустрії.
+          <br />
+          <br />
+          📷 Зйомки проводжу на бездзеркальну камеру Canon R серії.
+          <br />
+          <br />
+          👨‍💻 Стек технологій Adobe: Ps, Ai, Pr, Ae, C4D, UE5 та ін.
+          <br />
+          <br />
+          🎞 Дивіться будь-ласка приклади робіт та шоуріл нижче ⬇
+        </SectionTitle>
       </Whyme>
 
       <SectionTitle>ШОУРІЛ:</SectionTitle>
