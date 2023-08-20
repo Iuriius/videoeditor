@@ -319,6 +319,20 @@ const Photo = () => {
           </H3>
           <Forever />
         </Section>
+
+        <SectionTitle style={{ color: "lavender" }}>ЦІНИ:</SectionTitle>
+        <H3>
+          Орієнтовна ціна за годину зйомок: <span style={{ color: "lavender" }}> 1,500 UAH </span>.{" "}
+          <br />
+          <br />В ціну не включено: <br /> 📸 Оренда студії
+          <br />~<span style={{ color: "lavender" }}> 1,000 UAH/год. </span>.
+          <br />
+          💇‍♀️💄💅 Послуги візажиста
+          <br />~<span style={{ color: "lavender" }}> 1,000 UAH </span>.
+          <br />
+          <br />
+          ✅Термін виконання робіт: <span style={{ color: "lavender" }}> 2-3 дні </span>.
+        </H3>
         <SectionTitle>НАПИШІТЬ МЕНІ ЩОБ ДІЗНАТИСЯ ДЕТАЛІ:</SectionTitle>
         <Socials>
           <a href="https://t.me/iuriius">

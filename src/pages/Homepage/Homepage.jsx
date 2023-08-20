@@ -9,7 +9,7 @@ import { BenefitHowto } from "../../components/Benefits/BenefitHowto.styled";
 import { SectionTitle } from "../../components/SectionTitle/SectionTitle.styled";
 import { Partners } from "./Partners.styled";
 import { Link } from "react-router-dom";
-import { Showreel } from "../../components/YouTube/Showreel";
+import { VideoContainer } from "../Aero/Aero.styled";
 /*
 /**|======================================
 /**| react icons
@@ -21,11 +21,9 @@ import { BsClock } from "react-icons/bs";
 import { BsGlobe2 } from "react-icons/bs";
 import { BsCloudCheck } from "react-icons/bs";
 import { BsFillEmojiHeartEyesFill } from "react-icons/bs";
-
 import { BsFillLightbulbFill } from "react-icons/bs";
 import { BsFillClipboardCheckFill } from "react-icons/bs";
 import { BsFillSendCheckFill } from "react-icons/bs";
-// import { BsChevronDoubleRight } from "react-icons/bs";
 /*
 /**|======================================
 /**| social contacts
@@ -33,7 +31,6 @@ import { BsFillSendCheckFill } from "react-icons/bs";
 */
 import { FaViber } from "react-icons/fa";
 import { BsTelegram, BsSkype, BsMessenger, BsInstagram, BsEnvelopeAt } from "react-icons/bs";
-
 /*
 /**|======================================
 /**| import img
@@ -47,7 +44,7 @@ import aero from "/pictures/jpg/aerovideo.jpg";
 /**| Code
 /**|======================================
 */
-const videoId = "Xw3j7-1b8ig";
+import ReactPlayer from "react-player/youtube";
 
 const Homepage = () => {
   const [showFullText, setShowFullText] = useState(false);
@@ -109,7 +106,9 @@ const Homepage = () => {
       </Whyme>
 
       <SectionTitle>ШОУРІЛ:</SectionTitle>
-      <Showreel videoId={videoId} />
+      <VideoContainer>
+        <ReactPlayer url="https://www.youtube.com/watch?v=Xw3j7-1b8ig" />
+      </VideoContainer>
 
       <SectionTitle>МЕНІ ДОВІРЯЮТЬ:</SectionTitle>
       <Partners />
