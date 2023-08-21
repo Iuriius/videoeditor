@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const MobileMenu = ({ setOpen }) => {
   return (
-    <nav className="mobmenu">
+    <nav>
       <Link to="/photo" onClick={() => setOpen(false)}>
         <h3>ФОТОСЕСІЇ</h3>
       </Link>

@@ -56,7 +56,10 @@ const Homepage = () => {
     <>
       <Hero>
         <h1>ВАШ ВІДЕОМОНТАЖЕР</h1>
-        <br /> <ButtonStyled>ЗАМОВИТИ МОНТАЖ ВІДЕО </ButtonStyled>
+        <br />{" "}
+        <Link to="/contact">
+          <ButtonStyled>ЗАМОВИТИ МОНТАЖ ВІДЕО</ButtonStyled>
+        </Link>
       </Hero>
 
       <h2 style={{ color: "white", width: "90%", margin: "0 auto", padding: "3rem 0 3rem 0" }}>
@@ -178,22 +181,22 @@ const Homepage = () => {
 
       <SectionTitle>НАПИШІТЬ МЕНІ ЩОБ ДІЗНАТИСЯ ДЕТАЛІ:</SectionTitle>
       <Socials>
-        <a href="https://t.me/iuriius">
+        <a target="_blank" rel="noreferrer" href="https://t.me/iuriius">
           <BsTelegram size="4rem" />
         </a>
-        <a href="viber://chat?number=380733216072">
+        <a target="_blank" rel="noreferrer" href="viber://chat?number=380733216072">
           <FaViber size="4rem" />
         </a>
-        <a href="skype:allotrius?chat">
+        <a target="_blank" rel="noreferrer" href="skype:allotrius?chat">
           <BsSkype size="4rem" />
         </a>
-        <a href="https://www.instagram.com/allotrius/">
+        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/allotrius/">
           <BsInstagram size="4rem" />
         </a>
-        <a href="https://m.me/iurii.kyrychenko">
+        <a target="_blank" rel="noreferrer" href="https://m.me/iurii.kyrychenko">
           <BsMessenger size="4rem" />
         </a>
-        <a href="mailto:iuriius@gmail.com">
+        <a target="_blank" rel="noreferrer" href="mailto:iuriius@gmail.com">
           <BsEnvelopeAt size="4rem" />
         </a>
       </Socials>

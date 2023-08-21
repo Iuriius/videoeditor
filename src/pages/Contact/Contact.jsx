@@ -1,10 +1,19 @@
 import { ContactStyled } from "./Contact.styled";
-// import { GoogleForm } from "../../components/SendForm/SendForm";
 
 const Contact = () => {
   return (
     <ContactStyled>
-      <h1>GOOGLE FORM</h1>
+      <iframe
+        title="Contact Form"
+        width="100%"
+        height="900"
+        frameBorder="0"
+        marginHeight="0"
+        marginWidth="0"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfSJ_i0gCEtptJaWjP1Mi8TRABCgZNyg7DhfIYJQZqmY-6mPg/viewform?embedded=true"
+      >
+        Loading…
+      </iframe>
     </ContactStyled>
   );
 };

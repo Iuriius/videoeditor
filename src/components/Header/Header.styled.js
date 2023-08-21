@@ -11,8 +11,7 @@ export const HeaderStyled = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: #0a0a0a;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 
   @media screen and (min-width: 768px) {
     justify-content: space-between;
@@ -34,7 +33,7 @@ export const StyledLink = styled(NavLink)`
   display: none;
   text-decoration: none;
   padding: 5px;
-  color: darkslateblue;
+  color: slateblue;
   transition: color 150ms ease-in-out;
   &:hover,
   &:focus {

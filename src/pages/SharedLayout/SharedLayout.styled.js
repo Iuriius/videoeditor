@@ -10,7 +10,7 @@ export const SharedLayoutStyled = styled.div`
   margin: 0 auto;
 
   background-color: black;
-  color: rebeccapurple;
+  color: darkorchid;
   text-align: center;
 
   @media screen and (min-width: 768px) {
