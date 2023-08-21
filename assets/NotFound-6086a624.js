@@ -1,4 +1,4 @@
-import{j as t}from"./index-42c9afa5.js";import{n as e}from"./emotion-styled.browser.esm-fb7d12e4.js";const n=e.div`
+import{j as t}from"./index-8e65df61.js";import{n as e}from"./emotion-styled.browser.esm-87fae986.js";const n=e.div`
   text-align: center;
   @media screen and (min-width: 768px) {
   }

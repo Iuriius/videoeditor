@@ -1,4 +1,4 @@
-import{n as e}from"./emotion-styled.browser.esm-fb7d12e4.js";const n=e.div`
+import{n as e}from"./emotion-styled.browser.esm-87fae986.js";const n=e.div`
   margin: 0 auto;
   width: 320px;
 
