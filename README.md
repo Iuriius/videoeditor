@@ -1,0 +1,2 @@
+# videoeditor
+A React project based on Vite bundle. This is a totally functional working commercial project that earns money. For it's styling I used Emotion library. I integrated Google services like YouYube and Sheets. Modern librares like axios, swiper, icons, image-gallery, hamburger were used to make it work. The whole design of this SPA was created by me from the scratch. I am very proud of this site because it helps people to run their social networks.
